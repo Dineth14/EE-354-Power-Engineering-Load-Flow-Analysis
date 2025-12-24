@@ -20,7 +20,7 @@ def gauss_seidel(Y_bus, P, Q, V, max_iter=100, tol=1e-6):
                 pass 
             else:
                 # Calculate injected current I_i
-                I_i_conj = (P[i] - 1j * Q[i]) / V_new[i]
+                I_i_conj = (P[i] - 1j * Q[i]) / np.conj(V_new[i])
                 
                 # Update voltage V_i
                 V_new[i] = (1 / Y_bus[i, i]) * (I_i_conj - sum_val)

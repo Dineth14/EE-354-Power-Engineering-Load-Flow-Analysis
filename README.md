@@ -8,7 +8,7 @@ This repository contains resources and code related to load flow analysis in pow
 2. Methods for Load Flow Analysis
     1. Newton-Raphson Method Implementation
     2. Gauss-Seidel Method Implementation
-    3. quasi-Newton Method Implementation
+    3. Fast Decoupled Method Implementation
 3. Theoretical Background
 4. Code Examples and Simulations
 5. References and Further Reading
@@ -18,7 +18,7 @@ This repository contains resources and code related to load flow analysis in pow
 To get started with the load flow analysis code, clone the repository and install the required dependencies:
 
 ```bashgit clone
-git clone https ://github.com/yourusername/ee-354-load-flow-analysis.git
+git clone https://github.com/yourusername/ee-354-load-flow-analysis.git
 cd ee-354-load-flow-analysis
 pip install -r requirements.txt
 ````
@@ -38,4 +38,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Dineth Perera - [GitHub](https://github.com/Dineth14)
 
 Feel free to reach out if you have any questions or need further assistance!
-
